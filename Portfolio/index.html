@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1c6f4a9685.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            
+            <nav>
+                <h2 class="logo">Sanjay.</h2>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="head-text">
+                <p>Full Stack Developer</p>
+                <h2>Hi,I'M <span>Sanjay</span><br>From India</h2>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                     <img src="images/portimg3.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am a Pre-final year Student of Computer
+                        Science with experience working across the
+                        full-stack software development.Looking for a
+                        role where i can grow and learn from
+                        experienced team members.I am a Self motivated person.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023</span><br>Web Development internship at OASIS</li>
+                            <li><span>2023</span><br>Team member in Smart India Hackathon</li>
+                            <!-- <li><span>App Development</span><br>Building Android/ios apps</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2021</span><br>Higher Secondary School</li>
+                            <li><span>2021-2025</span><br>CSE from S.A Engineering College</li>
+                            <!-- <li><span>App Development</span><br>Building Android/ios apps</li> -->
+                        </ul>
+                    </div>                              
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class=""sub-title>My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I am a Web designer and I can able to do a full stack website. 
+                        I do many projects to small scale industries and for my internships. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I am quite designer where I use designing tools like figma & Adobe Xd to design a User experience design.
+                        I have done design for Gym website.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>I am little experienced in app design also I have done a student dropout analysis app 
+                        using React Native .     
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class=""sub-title>My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/wok5.png">
+                    <div class="layer">
+                        <h3>Gym App Design</h3>
+                        <p>A fitness app is an application that can be downloaded on any mobile device and used anywhere to get fit</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Work2.jpeg" >
+                    <div class="layer">
+                        <h3>Landing Page</h3>
+                        <p>A landing page is a standalone web page that a person "lands" on after clicking through from an email, ad, or other digital location.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Ecommerce website/App</h3>
+                        <p>An ecommerce website/app allows users to shop online, browse product catalogs, create wish lists, add items to a cart, and complete purchases.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class=""sub-title>Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>nsanjay1505@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>70******60</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="images/Resume.pdf" class="btn btn2" download="">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @2023 by Sanjay</p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
